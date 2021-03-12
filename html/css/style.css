@@ -1069,6 +1069,55 @@ blockquote.testimonial p {
   }
 }
 
+/* Contact */
+#contact_div {
+  width: 100%;
+  height: 450px;
+  border-bottom: 1px solid #d9e1e6;
+  background-image: url(../img/gallery/farming-tablet.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+@media (max-width: 991px) {
+  #contact_div {
+    height: 350px;
+  }
+}
+
+.card-container {
+  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    position: relative;
+    border: 1px solid #d9e1e6;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    color: #777;
+    cursor: pointer;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.42857;
+}
+
 .box_contact {
   position: relative;
   padding-left: 60px;

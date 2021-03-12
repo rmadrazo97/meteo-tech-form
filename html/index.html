@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="STEPS | Multipurpose Working Wizard with Branches">
-    <meta name="author" content="Ansonika">
-    <title>STEPS | Multipurpose Working Wizard with Branches</title>
+    <meta name="description" content="Meteo.tech | New User">
+    <meta name="author" content="meteo.tech">
+    <title>Meteo.tech | New User</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logos/favicon/favicon-32x32.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -50,26 +50,28 @@
 		    <div class="row">
                 <div class="col-3">
                     <div id="logo_home">
-                        <h1><a href="index.html">STEPS | Multipurpose Working Wizard with Branches</a></h1>
+                        <div id="logo">
+							<a href="index.html"><img src="img/logos/meteologo.png" alt="" data-retina="true" height="35"></a>
+						</div>
                     </div>
                 </div>
                 <div class="col-9">
                     <div id="social">
                         <ul>
-                            <li><a href="#0"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#0"><i class="icon-globe"></i></a></li>
                             <li><a href="#0"><i class="icon-twitter"></i></a></li>
-                            <li><a href="#0"><i class="icon-google"></i></a></li>
-                            <li><a href="#0"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="#0"><i class="icon-mail-alt"></i></a></li>
                         </ul>
                     </div>
                     <!-- /social -->
                     <nav>
-                        <ul class="cd-primary-nav">
-                            <li><a href="about.html" class="animated_link">About</a></li>
-                            <li><a href="contacts.html" class="animated_link">Contacts</a></li>
-                            <li><a href="icon-pack-1.html" class="animated_link">Icon Pack One</a></li>
+						<ul class="cd-primary-nav">
+							<li><a href="index.html" class="animated_link">Inicio</a></li>
+							<li><a href="about.html" class="animated_link">Sobre Meteo.Tech</a></li>
+                            <li><a href="contacts.html" class="animated_link">Contacto</a></li>
+                            <!-- <li><a href="icon-pack-1.html" class="animated_link">Icon Pack One</a></li>
                             <li><a href="icon-pack-2.html" class="animated_link">Icon Pack Two</a></li>
-                            <li><a href="icon-pack-3.html" class="animated_link">Icon Pack Three</a></li>
+                            <li><a href="icon-pack-3.html" class="animated_link">Icon Pack Three</a></li> -->
                         </ul>
                     </nav>
                 </div>
@@ -90,26 +92,26 @@
 						<!-- First branch What Type of Project ============================== -->
 						<div class="step" data-state="branchtype">
 							<div class="question_title">
-								<h3>What Type of Project do you need?</h3>
-								<p>Selection with Branch (First Branch). Web Development have a <strong>Second Branch</strong>.</p>
+								<h3>¿Qué tipo de organización te define?</h3>
+								<p>Indica con que tipo de <strong>organización/Persona </strong>te identificas.</p>
 							</div>
 							<div class="row">
 								<div class="col-lg-4">
 									<div class="item">
-										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="img/seo_icon_1.svg" alt=""><strong>Seo Optimization</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										<input id="answer_1" type="radio" name="branch_1_group_1" value="cultivos" user_type="small" class="required">
+										<label for="answer_1"><img src="img/gallery/farmer.png" alt="" width="80%"><strong>Pequeño Agricultor</strong>Meteorologos, Agrónomos, Geeks del Clima.</label>
 									</div>
 								</div>
 								<div class="col-lg-4">
 									<div class="item">
-										<input id="answer_2" name="branch_1_group_1" type="radio" value="Web-Development" class="required">
-										<label for="answer_2"><img src="img/web_development_icon_1.svg" alt=""><strong>Web Development</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										<input id="answer_2" name="branch_1_group_1" type="radio" value="cultivos" user_type="medium" class="required">
+										<label for="answer_2"><img src="img/gallery/farmers.png" alt="" width="80%"><strong>Mediano Agricultor</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
 								<div class="col-lg-4">
 									<div class="item">
-										<input id="answer_3" name="branch_1_group_1" type="radio" value="Design" class="required">
-										<label for="answer_3"><img src="img/design_icon_1.svg" alt=""><strong>Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										<input id="answer_3" name="branch_1_group_1" type="radio" value="cultivos" user_type="large" class="required">
+										<label for="answer_3"><img src="img/gallery/farming-company.png" alt="" width="80%"><strong>Finca Grande</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 									</div>
 								</div>
 							</div>
@@ -118,29 +120,69 @@
 						<!-- /First branch What Type of Project ============================== -->
 						
 						<!-- /What Type of Project > Seo-Optimization ============================== -->
-						<div class="branch" id="Seo-Optimization">
-							<div class="step" data-state="budget">
+						<div class="branch" id="cultivos">
+							<div class="step" data-state="map">
 								<div class="question_title">
-									<h3>What Type of Seo Optimization do you need?</h3>
-									<p>Multiple Selection (Checkbox based)</p>
+									<h3>¿Qué tipo productos cultivas?</h3>
+									<p>Selecciona todas las opciones que apliquen con tus cultivos</p>
 								</div>
 								<div class="row">
 									<div class="col-lg-4">
 										<div class="item">
-											<input id="branch_1_answer_1" type="checkbox" name="branch_1_answers[]" value="Page SEO Checker" class="required">
-											<label for="branch_1_answer_1"><img src="img/seo_icon_2.svg" alt=""><strong>On Page SEO Checker</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+											<input id="branch_1_answer_1"  type="checkbox" name="branch_1_answers[]" value="fruits" class="required">
+											<label for="branch_1_answer_1"><img src="img/categories/fruits.png" width="70%" alt=""><strong>Frutas</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 										</div>
 									</div>
 									<div class="col-lg-4">
 										<div class="item">
-											<input id="branch_1_answer_2" name="branch_1_answers[]" type="checkbox" value="Pay Per Click" class="required">
-											<label for="branch_1_answer_2"><img src="img/seo_icon_3.svg" alt=""><strong>Pay Per Click</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+											<input id="branch_1_answer_2" name="branch_1_answers[]" type="checkbox" value="vegetables" class="required">
+											<label for="branch_1_answer_2"><img src="img/categories/vegetables.png" width="70%" alt=""><strong>Verduras</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 										</div>
 									</div>
 									<div class="col-lg-4">
 										<div class="item">
-											<input id="branch_1_answer_3" name="branch_1_answers[]" type="checkbox" value="Backlinks Checker" class="required">
-											<label for="branch_1_answer_3"><img src="img/seo_icon_4.svg" alt=""><strong>Backlinks Checker</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+											<input id="branch_1_answer_3" name="branch_1_answers[]" type="checkbox" value="legumes" class="required">
+											<label for="branch_1_answer_3"><img src="img/categories/legumes.png" width="70%" alt=""><strong>Legumbres</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_4" type="checkbox" name="branch_1_answers[]" value="coffee" class="required">
+											<label for="branch_1_answer_4"><img src="img/categories/coffee.png"width="70%"  alt=""><strong>Café</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_5" name="branch_1_answers[]" type="checkbox" value="poultry" class="required">
+											<label for="branch_1_answer_5"><img src="img/categories/chicken-egg.png" width="70%" alt=""><strong>Avícola</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_6" name="branch_1_answers[]" type="checkbox" value="livestock" class="required">
+											<label for="branch_1_answer_6"><img src="img/categories/meat-milk.png" width="70%" alt=""><strong>Ganadero</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_7" type="checkbox" name="branch_1_answers[]" value="fishing" class="required">
+											<label for="branch_1_answer_7"><img src="img/categories/fishery.png" width="70%" alt=""><strong>Pesqueros</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_8" name="branch_1_answers[]" type="checkbox" value="industrial" class="required">
+											<label for="branch_1_answer_8"><img src="img/categories/industrial.png" width="70%" alt=""><strong>Industriales</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_1_answer_9" name="branch_1_answers[]" type="checkbox" value="other" class="required">
+											<label for="branch_1_answer_9"><img src="img/categories/others.png" width="70%" alt=""><strong>Otros</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
 										</div>
 									</div>
 								</div>
@@ -335,6 +377,109 @@
 								<!-- /row-->
 							</div>
 							<!-- /Design > What Type of Design do you need ============================== -->
+
+							<!---------------------->
+							<!-- --- map -- -->
+							<!---------------------->
+							<div class="branch" id="map">
+								<div class="step" data-state="variables">
+									<div class="question_title">
+										<h3>Ubicación</h3>
+										<p>Instrucciones de la ubicación</p>
+									</div>
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="embed-responsive embed-responsive-16by9 shadow" style="border-radius: 15px;">
+												<iframe class="embed-responsive-item" src="map.html" allowfullscreen 
+												></iframe>
+											  </div>
+										</div>
+									</div>
+									<!-- /row-->
+								</div>
+							</div>
+							<!---------------------->
+							<!-- --- variables -- -->
+							<!---------------------->
+
+							<!---------------------->
+							<!-- --- variables -- -->
+							<!---------------------->
+							<div class="branch" id="variables">
+								<div class="step" data-state="budget">
+									<div class="question_title">
+										<h3>Variables</h3>
+										<p>Instrucciones de las variables</p>
+									</div>
+									<div class="row card-container">
+										<div class="col-lg-12">
+											<div class="row">
+												<div class="col-12">
+													<img src="img/gallery/variables-stations.jpg" style="width: 100% !important; max-width: 700px;" class="mt-0" alt="">
+												</div>
+											</div>
+											<div class="row mb-4">
+												<div class="col-12">
+													<strong class="mt-2">Configuración de Alertas</strong> <br>
+													Configura las variables y los niveles que deseas recibir alertas.
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<table class="table">
+														<thead>
+															<tr>
+																<th scope="col" style="width: 50%;">Variable</th>
+																<th scope="col">Valores</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>
+																	<div class="styled-select">
+																		<select class="required" name="country">
+																			<option value="" selected>Selecciona la variable</option>
+																			<option value="temp">Temperatura (Cº)</option>
+																			<option value="precip">Precipitación</option>
+																			<option value="windv">Velocidad de Viento</option>
+																		</select>
+																	</div>
+																</td>
+																<td>
+																	<div class="row justify-content-between">
+																		<div class="col-6">
+																			<div class="row justify-content-center">
+																				<input type="number" step="0.1" min="-999" max="+999" class="form-control mx-2 border-success mb-1 " >
+																				<small>Min</small>
+																			</div>
+																		</div>
+																		<div class="col-6">
+																			<div class="row justify-content-center">
+																				<input type="number" step="0.1" min="-999" max="+999" class="form-control mx-2 border-danger mb-1 ">
+																				<small>Max</small>
+																			</div>
+																		</div>
+																	</div>
+
+																</td>
+															  </tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12 justify-content-end">
+													<button type="button" name="add" class="btn btn-success btn-circle float-right shadow"><i class="icon-plus"></i></button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /row-->
+								</div>
+							</div>
+							<!---------------------->
+							<!-- --- variables -- -->
+							<!---------------------->
 							
 							<!-- Budget ============================== -->
 							<div class="step" id="budget" data-state="end">
@@ -347,7 +492,7 @@
 										<div class="box_general">
 										<div class="rounded_slider">
 											<div id="budget_slider" style="margin: 0 auto 20px;"></div>
-											<p>Eu sed epicuri mentitum, ex mei hinc justo, no cum dictas deserunt gubergren. Ferri pericula sententiae eu pro.</p>
+											<p>Eu sed epicuri mentitum, ex mei hinc justo, no cum dictas deserunt gubergren.</p>
 											</div>
 										</div>
 									</div>
@@ -400,9 +545,9 @@
 					</div>
 					<!-- /middle-wizard -->
 					<div id="bottom-wizard">
-						<button type="button" name="backward" class="backward">Backward </button>
-						<button type="button" name="forward" class="forward">Forward</button>
-						<button type="submit" name="process" class="submit">Submit</button>
+						<button type="button" name="backward" class="backward">Anterior</button>
+						<button type="button" name="forward" class="forward">Siguiente</button>
+						<button type="submit" name="process" class="submit">Crear Usuario</button>
 					</div>
 					<!-- /bottom-wizard -->
 				</form>
@@ -416,13 +561,13 @@
 	<footer>
 		<div class="container clearfix">
 			<ul>
-				<li><a href="index.html" class="animated_link active">Multiple Branch</a></li>
-				<li><a href="index-2.html" class="animated_link">Single Branch</a></li>
-				<li><a href="index-3.html" class="animated_link">Without Branch</a></li>
-				<li><a href="index-4.html" class="animated_link">Images Version</a></li>
-				<li><a href="#0" class="animated_link"><strong>Purchase this Template</strong></a></li>
+				<li><a href="index.html" class="animated_link active">Sobre Nosotros</a></li>
+				<li><a href="index-2.html" class="animated_link">Servicios Empresariales</a></li>
+				<li><a href="index-2.html" class="animated_link">Contacto</a></li>
 			</ul>
-			<p>© 2020 Steps</p>
+			<a href="https://meteo.tech/" target="_blank">
+				<p>© 2021 Meteo.tech</p>
+			</a>
 		</div>
 	</footer>
 	<!-- /footer -->
