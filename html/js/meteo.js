@@ -279,7 +279,15 @@ function handleSubmit(){
               "email": userData.email,
               "displayName": userData.name,
               "phoneNum": countries[userData.country].code+userData.phone,
-              "location": userLocation
+              "country": userLocation.country,
+              "lat": userLocation.lat,
+              "lon": userLocation.lon,
+              "type": farmerType,
+              "fruits_b": crops.fruits.selected,
+              "vegetables_b": crops.vegetables.selected,
+              "ornamental_b": crops.ornamental.selected,
+              "country_code": userData.country
+
             }),
           };
           
@@ -305,7 +313,7 @@ function handleSubmit(){
               
               $.ajax(settings2).done(function (response2) {
                 console.log(response2);
-                window.location.href = '/success.html'; 
+                window.location.href = './success.html'; 
               });
 
           });
