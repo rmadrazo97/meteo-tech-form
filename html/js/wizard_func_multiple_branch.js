@@ -7,7 +7,7 @@
 		// PHPMailer text/html SMTP > phpmailer/multiple_branch_phpmailer_smtp.php
 		// PHPMailer with html template > phpmailer/multiple_branch_phpmailer_template.php
 		// PHPMailer with html template SMTP> phpmailer/multiple_branch_phpmailer_template_smtp.php
-		$('form#wrapped').attr('action', 'form_send_multiple_branch.php');
+		$('form#wrapped').attr('action', 'javascript:handleSubmit()');
 		$("#wizard_container").wizard({
 			stepsWrapper: "#wrapped",
 			submit: ".submit",
